@@ -79,9 +79,9 @@ Use case ends.
 
 **MSS**
 
-1. User requests to list persons
-2. AddressBook shows a list of persons
-3. User requests to rename a specific person's tag in the list
+1. User requests to list tags
+2. AddressBook shows a list of tags
+3. User requests to rename a specific tag in the list
 4. AddressBook confirms the change with the user
 5. User confirms or cancels change <br>
 Use case ends.
