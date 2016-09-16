@@ -97,7 +97,7 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
 
-4a. The requested tag to edit is invalid
+4a. The requested tag to rename is invalid
 
 > 4a1. AddressBook shows an error message <br>
   Use case resumes at step 2
