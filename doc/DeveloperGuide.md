@@ -75,13 +75,13 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
 
-#### Use case: Edit tag
+#### Use case: Rename tag
 
 **MSS**
 
 1. User requests to list persons
 2. AddressBook shows a list of persons
-3. User requests to edit a specific person's tag in the list
+3. User requests to rename a specific person's tag in the list
 4. AddressBook confirms the change with the user
 5. User confirms or cancels change <br>
 Use case ends.
