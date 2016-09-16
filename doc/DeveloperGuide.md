@@ -68,7 +68,8 @@ Use case ends.
 
 2a. The list is empty
 
-> Use case ends
+> 2a1. AddressBook shows an error message <br>
+  Use case ends
 
 3a. The given index is invalid
 
@@ -83,14 +84,16 @@ Use case ends.
 2. AddressBook shows a list of tags
 3. User requests to rename a specific tag in the list
 4. AddressBook confirms the change with the user
-5. User confirms or cancels change <br>
+5. User confirms change
+6. AddressBook renames tag <br>
 Use case ends.
 
 **Extensions**
 
 2a. The list is empty
 
-> Use case ends
+> 2a1. AddressBook shows an error message <br>
+  Use case ends
 
 3a. The given index is invalid
 
@@ -109,7 +112,9 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
-5. Should include documentation.
+5. Should include documentation to lower learning curve.
+6. Should able to find contacts by address/email/phone.
+
 
 ## Appendix D : Glossary
 
