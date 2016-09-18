@@ -69,14 +69,6 @@ public class StorageFile implements Storage {
             throw new InvalidStorageFilePathException("Storage file should end with '.txt'");
         }
     }
-    
-    /**
-     * Creates the StorageFile object based on the user specified path (if any) or the default storage path.
-     * @throws StorageFile.InvalidStorageFilePathException if the target file path is incorrect.
-     */
-    public StorageFile initializeStorage() throws StorageFile.InvalidStorageFilePathException {
-        return new StorageFile();
-    }
 
     /**
      * Returns true if the given path is acceptable as a storage file.
@@ -123,7 +115,7 @@ public class StorageFile implements Storage {
             throw new StorageOperationException("File contains illegal data values; data type constraints not met");
         }
     }
-
+    
     /**
      * Saves all data to this storage file.
      *
