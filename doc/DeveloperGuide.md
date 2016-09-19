@@ -71,7 +71,7 @@ Use case ends.
 > 2a1. AddressBook shows an error message <br>
   Use case ends
 
-3a. The given index is invalid
+3a. The given index is invalid (The index refers to the index number shown in the most recent listing.)
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
@@ -113,7 +113,6 @@ Use case ends.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
 5. Should include documentation to lower learning curve.
-6. Should able to find contacts by address/email/phone.
 
 
 ## Appendix D : Glossary
